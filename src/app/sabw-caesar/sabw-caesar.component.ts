@@ -10,8 +10,8 @@ zahl = 12;
 rotation='rotate(-41.5deg)'
 
 dreheScheibe(){
-  this.rotatiion='rotate(180deg)';
-console.log(this.zahl);
+
+  this.rotation='rotate(180deg)';
 }
   constructor() { }
 
