@@ -5,4 +5,5 @@
 #scheibe_innen {
   width: 300px;
   position:absolute;
+  transform: rotate(-41.5deg);
 }
