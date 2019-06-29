@@ -1,0 +1,8 @@
+body {
+	background-color:rgba(105, 213, 255, 0.425);
+	font-family: lucida calligraphy;
+}
+
+#container{
+  height: 300px;
+}
