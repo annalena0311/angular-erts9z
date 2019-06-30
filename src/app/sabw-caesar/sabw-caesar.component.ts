@@ -11,7 +11,7 @@ rotation='rotate(-41.5deg)'
 
 dreheScheibe(){
 let deg = 360-360/26*this.zahl;
-  this.rotation='rotate('+deg+');
+  this.rotation=  'rotate(' +deg+ 'deg)';
 }
   constructor() { }
 
