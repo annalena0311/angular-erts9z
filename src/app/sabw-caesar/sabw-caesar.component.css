@@ -6,4 +6,5 @@
   width: 300px;
   position:absolute;
   /* transform: rotate(-41.5deg); */
+  transition: all 2s;
 }
