@@ -1,7 +1,7 @@
 <h1>Fermat-Test</h1>
 
 <form>
-  versuchskaninchen
+  Versuchskaninchen
   <input name="versuchskaninchen"
   [(ngModel)]="versuchskaninchen"/>
 <p> </p>
@@ -9,6 +9,6 @@
   Anzahl <input name="Anzahl"
   [(ngModel)]="Anzahl"/>
 
-  <br/><button>Prüfe!</button>
+  <br/><button (click)="fermattest()">Prüfe!</button>
 </form>
 {{ergebnis}}
